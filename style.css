@@ -1,0 +1,41 @@
+ /* .box{
+     background-color: black;
+     border: 10px;
+     height: 150px;
+     width: 150px;
+}
+
+#border , #content {
+     margin: 20px;
+     padding: 20px;
+     border: 10px solid red;
+     color: white;
+}
+
+#border {
+     box-sizing: border-box;
+}
+
+#content {                         
+     box-sizing: content-box;
+} */
+
+
+
+
+
+.box {
+     height: 50vw;
+     width: 50vw;
+     background-color: rgb(255 , 0 , 1 , .5);
+     border : 2px solid black;
+     margin: 10px;
+}
+
+#child {
+     height: 50%;
+     width : 50%;
+     background-color: white;
+     border : 2px solid black;
+     font-size: 1rem;
+}
